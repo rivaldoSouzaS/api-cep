@@ -1,0 +1,15 @@
+vamos pra organizar o sass salvando os arquivos compilados noutro diretorio
+temos que colocar um pequeno codigo de cofiguração 
+
+enfrenagem -> settings buscar por sass -> live sass compailer -> settings fortmats
+vai abrir um arquivo .json configuração 
+
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"  <<---- pasta de destino do arquivo compilado sass
+        }
+
+parar ou rodar o compilador sass
+ctrl+ shift+ p  cusca live sass: watch sass or live sass: stop watching sass

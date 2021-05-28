@@ -1,0 +1,32 @@
+body {
+  width: 90%;
+  background-color: rgb(126, 123, 123);
+  margin: 0 auto;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 0px 30px 50px 30px;
+
+  .container_input {
+    width: 100%;
+    background-color: rgba(235, 231, 231, 0.741);
+    border: 0.5px solid rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    margin-top: 5px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+  }
+
+  span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
